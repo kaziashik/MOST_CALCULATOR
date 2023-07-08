@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MOST CALCULATOR</title>
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                
+                <li><a href="Aboout_us.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>MOST CALCULATOR</h1>
+    </header>
+
+    <section class="description">
+        <p>This calculator is designed to help users with their calculations.</p>
+    </section>
+
+    <section class="step-calculator">
+        <h4 class="title">Steps to use the calculator:</h4>
+        <div class="no-of-steps">
+            <ol>
+                <li>Choose one type of calculation for Move Activities.</li>
+                <li>Enter all the required data information.</li>
+                <li>Click the 'SUBMIT' button.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="step-1">
+        <h3 class="title">1. Choose one type of calculation for Move Activities.</h3>
+        <center>
+            <p class="description-step1">Select only one type of operation:</p>
+            <form action="general-move.html" id="calculation-form">
+                <select name="calculationMove" id="cal-move">
+                    <option value="general-move">General Move</option>
+                    <option value="control-move">Control Move</option>
+                    <option value="tool-used">Tool Used</option>
+                </select>
+            </form>
+
+            <button onclick="selectOption()" class="button-submit">Submit</button>
+
+            <h5>The user chooses to calculate the <span id="selected-activity"></span> Activities.</h5>
+        </center>
+    </section>
+
+    <footer>
+        <center>
+            <div>
+                &copy; 2023 MOST CALCULATOR.
+            </div>
+        </center>
+    </footer>
+
+    <!-- Js fill add-->
+    <script src="Js/main.js"></script>
+</body>
+
+</html>

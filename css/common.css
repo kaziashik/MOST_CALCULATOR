@@ -1,0 +1,69 @@
+/* Add responsive styles here */
+/* Extra Small Devices (portrait phones) */
+@media only screen and (max-width: 480px) {
+    /* CSS rules for phones in portrait mode */
+    /* Example: Adjust font size */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Example: Center align text */
+    .title {
+        text-align: center;
+    }
+}
+
+/* Small Devices (landscape phones) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* CSS rules for phones in landscape mode */
+    /* Example: Adjust font size */
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Example: Reduce padding */
+    .step-1 {
+        padding: 10px;
+    }
+}
+
+/* Medium Devices (landscape phones and small tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for landscape phones and small tablets */
+    /* Example: Adjust font size */
+    h1 {
+        font-size: 30px;
+    }
+
+    /* Example: Change background color */
+    body {
+        background-color: #f9f9f9;
+    }
+}
+
+/* Large Devices (tablets) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for tablets */
+    /* Example: Increase padding */
+    .step-1 {
+        padding: 30px;
+    }
+
+    /* Example: Adjust font size */
+    p {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (769px and above) */
+@media (min-width: 1200px) {
+    /* Example: Increase padding */
+    .step-1 {
+        padding: 50px;
+    }
+
+    /* Example: Adjust font size */
+    p {
+        font-size: 24px;
+    }
+}

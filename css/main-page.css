@@ -1,0 +1,191 @@
+
+/* file css for most calculator */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: azure;
+}
+
+.text-max-center {
+    text-align: center;
+    width: clamp(280px, 55vw, 55vw);
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+:root {
+    --purple: #2D1241;
+    --red: #F03C69;
+    --orange: #FC9200;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-purple {
+    color: var(--purple) !important;
+}
+
+.text-red {
+    color: var(--red) !important;
+}
+
+/* font-size-used-in-website */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+b,
+strong,
+ul,
+li,
+ol {
+    font-family: 'Satoshi';
+}
+
+h1 {
+    font-size: clamp(60px, 6.250vw, 120px);
+    line-height: 1;
+    font-family: 'forma-djr-deck';
+    font-weight: bold;
+    color: var(--purple);
+}
+
+h2 {
+    font-size: clamp(40px, 4.167vw, 80px);
+    font-weight: 700;
+    font-family: 'forma-djr-deck';
+    line-height: 1.1;
+    color: var(--purple);
+}
+
+h3 {
+    font-family: 'forma-djr-deck';
+    font-weight: 600;
+    font-size: clamp(32px, 2.344vw, 45px);
+    line-height: 1.1;
+    color: var(--purple);
+}
+
+h4 {
+    color: #ffffff;
+    font-size: clamp(25px, 1.563vw, 30px);
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+h5 {
+    font-size: clamp(20px, 1.302vw, 25px);
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+
+p,
+a {
+    font-size: clamp(16px, 0.938vw, 18px);
+    font-family: 'Satoshi';
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+/* main-page-top */
+.description {
+    padding-bottom: 4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    font-size: 2.5vw !important;
+    text-align: justify;
+    font-family: cursive;
+}
+
+h4.title {
+    margin-bottom: 0vw !important;
+    color: indigo !important;
+    font-weight: 600;
+}
+
+.step-calculator {
+    font-size: 2.1vw !important;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 0 !important;
+}
+
+.no-of-steps {
+    font-size: clamp(16px, 0.938vw, 18px);
+    font-family: 'Satoshi';
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+
+/* the-choice-of-first-step */
+
+.step-1 {
+    font-size: 2.1vw !important;
+    padding-top: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 10vw !important;
+}
+
+h3.title {
+    margin-bottom: 0vw !important;
+    color: indigo !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description-step1 {
+    margin-bottom: 5px !important;
+}
+
+#cal-move {
+    width: 15vw;
+    height: 2vw;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: 550;
+}
+
+.button-submit {
+    margin: 2vw;
+}
+
+.user-answer1 {
+    font-family: 'Satoshi';
+    margin-block-start: 1vw !important;
+    margin-block-end: 1vw !important;
+    font-size: 1em;
+}
+
+/* media-screen-size */
+@media(max-width: 1440px) {}
+
+@media(max-width: 1240px) {}
+
+@media(max-width: 969px) {}
+
+@media(max-width: 767px) {}
+
+@media(max-width: 565px) {}
