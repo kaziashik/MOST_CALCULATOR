@@ -1,0 +1,33 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f1f1f1;
+        }
+
+        h1 {
+            font-size: 4em;
+            color: green;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 1em 2em;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.5em;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+  
